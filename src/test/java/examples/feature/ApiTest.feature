@@ -4,7 +4,7 @@ Feature: testing the API
     Given url "https://reqres.in"
 
   @debug
-  Scenario: API Test
+  Scenario: API Tests
     And path "/api/users"
     And params { page:1 }
     When method Get
