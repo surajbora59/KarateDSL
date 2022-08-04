@@ -6,6 +6,6 @@ Feature: testing the API
   @debug
   Scenario: API Tests
     And path "/api/users"
-    And params { page:1 }
+    And params { page:2 }
     When method Get
     Then status 200
